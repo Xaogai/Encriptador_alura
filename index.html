@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <p class="titulo">Encriptador</p>
+        </header>
+        <main>
+            <form class="input-padron">
+                <textarea id="texto" class="input-padron" required placeholder="Ingresa el texto aqui"></textarea>
+                <textarea id="resultado" class="input-resultados" ></textarea>
+                <p class="info">Solo letras minusculas y sin acentos</p>
+                <input type="button" value="Encriptar" class="encriptar" onclick="encriptar()">
+                <input type="button" value="Desencriptar" class="desencriptar" onclick="desencriptar()">
+                <input type="button" id='copiar' value="Copiar" class="copiar"onclick="copiarelm()">
+            </form>
+        </main>
+        <footer>
+            <p class="final">Aylen Noemi Pichardo Uriostegui</p>
+        </footer>       
+    </body>
+</html>
+
